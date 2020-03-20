@@ -1,0 +1,9 @@
+<h1>USERS DETAILS</h1>
+<table>
+     <tr *ngFor="let item of userdata">
+    <th>{{item.id}}</th>
+    <td>{{item.name}}</td>
+    <td>{{item.gender}}</td>
+    <td><button class="btn btn-secondary" (click)= "edituser(item.id)">EDIT</button></td>
+  </tr>
+</table>

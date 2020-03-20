@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class ="col-lg-4"></div>
+        <div class="col-lg-4">
+            <h2>LOGIN PAGE</h2>
+            <form>
+                <div>
+                    <label>ENTER USERNAME</label>
+                    <input type="text" class="form-control" [(ngModel)]="login.username" name="username">
+                                    </div>
+                <div>
+                    <label>ENTER PASSWORD</label>
+                    <input type="password" class="form-control" [(ngModel)]="login.password" name ="password">
+                    
+                </div>
+                <button class="btn btn-secondary" (click) = "userlogin()" >LOGIN</button>
+            </form>
+        <div class="col-lg-4"></div>
+        </div>
+    </div>
+</div> 
